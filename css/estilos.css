@@ -1,0 +1,66 @@
+body{
+    background: gray;
+}
+h1{
+    background: rgb(244, 248, 0);
+    color: black
+}
+h2{
+    background: blueviolet;
+    color:white
+}
+#c li,
+#d li
+{
+    color:blue;
+}
+#c strong,
+#d strong
+{
+    color: black;
+}
+@media(min-width: 1000px) and (max-width: 2000px)
+{ 
+    #i{
+        float: left;
+        width: 20%;
+    }
+    #cajom{
+        float: right;
+        width: 75%;
+    }
+    #c{
+        float: left;
+        width: 50%;
+    }
+    #d{
+        float: right;
+        width: 50%;
+    }
+    #c li,
+    #d li
+    {
+        color:blue;
+    }
+    #c strong,
+    #d strong
+    {
+        color: black;
+    }
+    
+}
+@media(min-width: 601px) and (max-width: 999px)
+{
+    #i{
+        float: left;
+        width: 30%;
+    }
+    #cajom{
+        float: right;
+        width: 67%;
+    }
+    #i ul{
+        list-style: none;
+        padding: 0%;
+    }
+}
